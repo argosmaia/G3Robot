@@ -10,7 +10,9 @@ const int motor2Pin2 = 5; // Porta digital para o segundo pino do motor 2
 
 void stop();
 void forward();
-
+void backwards();
+void turnRight();
+void turnLeft();
 
 Servo servoMotor;
 
